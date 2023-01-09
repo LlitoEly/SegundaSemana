@@ -1,0 +1,94 @@
+.nav-enlace{
+    display: inline-block;
+    background-color: aquamarine;
+    color: black;
+}
+
+
+.contenedor1{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+ }
+ 
+ .caja{
+     background: yellowgreen;
+     color: black;
+     padding: 10px;
+     text-align: center;
+ }
+.montalvo{
+    background: rgb(123, 13, 90);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.image{
+    grid-template-areas: initial;
+    image-orientation:center;
+}
+.caja2 i{
+    background: green;
+    width: 20px;
+    height: 20px;
+}
+.fondo {
+    heigh:665px;
+    background-image: url("https://www.ambientum.com/wp-content/uploads/2019/09/luz-naturaleza.jpg");
+    background-repeat: repeat-y;
+    background-size: 10rem;
+  }
+
+.body-color{
+  font: oblique 120% cursive;
+  background-color: #087c59;
+  padding-left: 20px;
+  font-size: large;
+}
+.barra1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+  .contenedor{
+    font-size: x-large;
+    font: oblique 120% cursive;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+ }
+ 
+ .caja{
+     background: yellowgreen;
+     color: black;
+     padding: 10px;
+     text-align: center;
+ }
+ .nav-item{
+    background-color: black;
+    color: blueviolet;
+ }
+ .img{
+     grid-template-areas: initial;
+ }
+ .caja2 i{
+     background: green;
+     width: 20px;
+     height: 20px;
+ }
+
+ .collapse navbar-collapse{
+    color: blueviolet;
+    background-color: black;
+ }
+
+ .color{
+    color: blueviolet;
+    background-color: black;
+ }
